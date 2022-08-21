@@ -103,11 +103,11 @@ let resumeButton=document.getElementById('resume-button');
 
 // Html2pdf options
 var opt = {
-//     margin:       1,
-    filename:     'ChiranjeetSingh_Resume.pdf',
-//     image:        { type: 'jpeg', quality: 0.98 },
-//     html2canvas:  { scale: 4 },
-//     jsPDF:        { format: 'a4', orientation: 'portrait' }
+    margin:       1,
+    filename:     'ResumeCv.pdf',
+    image:        { type: 'jpeg', quality: 0.98 },
+    html2canvas:  { scale: 4 },
+    jsPDF:        { format: 'a4', orientation: 'portrait' }
   };
   
 
